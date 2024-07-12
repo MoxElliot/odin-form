@@ -1,15 +1,54 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+:root {
+    font-family: Helvetica, system-ui, "Segoe UI", Roboto, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+    font-size: 18px;
+}
+
+@font-face {
+    font-family: "norse-bold";
+    src:url(assets/Norse-Bold.otf);
+}
+
 .container {
+    width: 100vw;
+    height: 100vh;
     display:flex;
 }
 
 .image-container {
-    width:30%;
-
-    img {
-        width:100%;
-        height: 100vh;
-    }
+    width: 450px;
+    background-image: url(assets/halie-west-25xggax4bSA-unsplash.jpg);
+    background-size: 100% 100%;
+    height:100%;
 }
+
+.odin-banner {
+    height: 150px;
+    width: 450px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.50);
+    position:fixed;
+    top: 150px;
+}
+
+.odin-image {
+    height:90%;
+}
+
+.odin-text {
+    color:white;
+    font-size: 4rem;
+    font-family: "norse-bold";
+}
+
 .form-container {
     width:70%;
 }
@@ -52,3 +91,4 @@ button {
 .account-p {
     margin-left:40px;
 }
+
