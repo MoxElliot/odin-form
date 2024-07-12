@@ -126,7 +126,7 @@ input {
 
 input:focus {
     outline:blue solid 1px;
-    box-shadow: 3px 3px #E5E7EB;
+    box-shadow: 3px 3px 3px #f1f1f1;
 }
 input:invalid {
     outline:red solid 1px;
