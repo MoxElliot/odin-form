@@ -25,6 +25,8 @@
     background-image: url(assets/halie-west-25xggax4bSA-unsplash.jpg);
     background-size: 100% 100%;
     height:100%;
+    display:flex;
+    justify-content: center;
 }
 
 .odin-banner {
@@ -47,6 +49,17 @@
     color:white;
     font-size: 4rem;
     font-family: "norse-bold";
+}
+
+.image-footer {
+    align-self: end;  
+    padding: 1rem;  
+}
+
+.image-footer_text {
+    color: white;
+    text-align: center;
+    font-size: .75rem;
 }
 
 .form-container {
